@@ -1,0 +1,7 @@
+mysql-connector-python
+configparser
+requests
+zipfile
+io
+csv
+black
