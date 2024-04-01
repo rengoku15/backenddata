@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 100vh;
+  background-color: white;
+  color: lightgrey;
+}
+
+.sidebar h1 {
+  height: 60px;
+  background-color: #f0f0f0;
+  color: #f0950c;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top:10px;
+}
+
+.sidebar a {
+  color: #4c4e52;
+  width: 100%;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar a:hover {
+  background-color: #faf4eb;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+}
+
+.sidebar a.active:hover {
+  background-color: #4CAF50;
+}
+
+.vertical-divider {
+  width: 6px;
+  background-color: #f2bd6d; 
+}
+
+.dashboard-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.route-search-btn{
+  background-color: orange;
+  border-color: orange;
+  width: 100%;
+  color: black;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+.route-search-btn:hover{
+  color: white;
+}
+
+.search-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+  
+.search-card .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+  
+.search-card .form-control {
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+}
+  
+.ongoing-express-bus th {
+  background-color: #6c757d;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+  
+.metric-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+  
+.metric-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+  
+.metric-value {
+  font-size: 36px;
+  font-weight: bold;
+}
+  
+#riderUtilizationChart {
+  width: 100%;
+  height: 150px;
+}
+
+.text-container h1 {
+  color: orange;
+}

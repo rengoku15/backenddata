@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>piRide - Route Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+  
+    <div id="sidebar-container"></div>
+    <div class="vertical-divider"></div>
+
+    <div class="container" style="width: 100%; justify-content: center; align-items: center; background-color:#faf4eb;">
+      <div class="card search-card">
+        <div class="card-body">
+          <h4 class="card-title">Route Search</h4>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="routeSearch" placeholder="Route Search">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="startStop" placeholder="Start Stop">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="endStop" placeholder="End Stop">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="date" placeholder="Date">
+              <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+            </div>
+            <button type="submit" class="route-search-btn">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/sidebar.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#date").datepicker();
+    });
+  </script>
+  <script src="js/search.js"></script>
+</body>
+</html>
